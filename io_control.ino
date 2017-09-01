@@ -190,7 +190,7 @@ void updatePeripherals(){
             }
     }
     //copy values over to the historical array 
-    for(int i = 0x13; i > 0; i--) i2c_hist_regs[i] = i2c_regs[i]; 
+    for(int i = 0x13; i => 0; i--) i2c_hist_regs[i] = i2c_regs[i]; 
     new_data = 0;  
 }
 
